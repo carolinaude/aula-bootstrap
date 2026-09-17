@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Carolina Costa Ude — Sistemas de Informação</title>
+
+        <!-- W3.CSS -->
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+        <!-- Font Awesome (ícones) -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+        <!-- Tipografia -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;800&display=swap" rel="stylesheet">
+
+        <!-- CSS do projeto (externo) -->
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+
+    <body>
+        <!-- Barra de navegação -->
+        <div class="w3-bar w3-top nav-bar">
+            <div class="w3-content nav-content">
+                <a href="#top" class="w3-bar-item w3-button nav-brand">
+                    <i class="fa-solid fa-code"></i> Carolina Ude
+                </a>
+
+                <nav class="nav-links" aria-label="Seções da página">
+                    <a href="#sobre" class="w3-button nav-link">Sobre</a>
+                    <a href="#habilidades" class="w3-button nav-link">Habilidades</a>
+                    <a href="#projetos" class="w3-button nav-link">Projetos</a>
+                    <a href="#interesses" class="w3-button nav-link">Interesses</a>
+                    <a href="#contato" class="w3-button nav-link">Contato</a>
+                </nav>
+
+                <div class="nav-actions">
+                    <button id="themeToggle" type="button" class="w3-button icon-btn" aria-label="Alternar tema">
+                        <i class="fa-solid fa-moon"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Apresentação -->
+        <header id="top" class="w3-container hero">
+            <div class="w3-content">
+                <div class="w3-row-padding hero-row">
+                    <div class="w3-col l4 m12 s12 w3-center hero-photo">
+                        <div class="photo-ring">
+                            <img class="profile-img" src="assets/imagem/carolina.jpeg" alt="Foto de Carolina">
+                        </div>
+                        <p class="tag-list w3-center">
+                            <span class="chip chip-solid">Sistemas de Informação</span>
+                            <span class="chip">UFLA</span>
+                        </p>
+                    </div>
+
+                    <div class="w3-col l8 m12 s12 hero-text">
+                        <h1>Olá! Eu sou Carolina</h1>
+                        <p class="lead">
+                            Estudante de Sistemas de Informação, interessada em desenvolvimento web
+                            e em aprender mais sobre tecnologias e computação.
+                        </p>
+
+                        <div class="btn-group">
+                            <a class="btn btn-solid" href="#projetos">
+                                <i class="fa-solid fa-diagram-project"></i> Ver projetos
+                            </a>
+                            <a class="btn btn-outline" href="#contato">
+                                <i class="fa-solid fa-envelope"></i> Contato
+                            </a>
+                            <a class="btn btn-ghost" href="https://github.com/carolinaude" target="_blank" rel="noreferrer">
+                                <i class="fa-brands fa-github"></i> GitHub
+                            </a>
+                            <a class="btn btn-ghost" href="https://www.linkedin.com/in/carolinacostaude/" target="_blank" rel="noreferrer">
+                                <i class="fa-brands fa-linkedin"></i> LinkedIn
+                            </a>
+                        </div>
+
+                        <div class="w3-row-padding info-row">
+                            <div class="w3-col m6 s12 card-col">
+                                <div class="box">
+                                    <h3><i class="fa-solid fa-graduation-cap"></i> Curso</h3>
+                                    <p>Bacharelado em Sistemas de Informação — Universidade Federal de Lavras (UFLA).</p>
+                                </div>
+                            </div>
+                            <div class="w3-col m6 s12 card-col">
+                                <div class="box">
+                                    <h3><i class="fa-solid fa-bullseye"></i> Objetivo</h3>
+                                    <p>Aprimorar habilidades em web (frontend e backend) e participar de projetos práticos no semestre.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <!-- Sobre -->
+            <section id="sobre" class="w3-container section">
+                <div class="w3-content">
+                    <h2 class="section-title">Sobre</h2>
+                    <p class="section-sub">Uma breve descrição da estudante e da trajetória.</p>
+
+                    <div class="w3-row-padding">
+                        <div class="w3-col l7 m12 s12 card-col">
+                            <div class="card">
+                                <p>
+                                    Sou estudante de Sistemas de Informação e tenho interesse nas áreas de Análise
+                                    de Dados, Desenvolvimento Web, Desenvolvimento Front-End e Quality Assurance (QA).
+                                    Busco aprimorar meus conhecimentos em tecnologia, desenvolver novas habilidades
+                                    e criar soluções eficientes e de qualidade.
+                                </p>
+                                <p class="muted">
+                                    Nesta página, apresento minhas habilidades, interesses e projetos desenvolvidos.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="w3-col l5 m12 s12 card-col">
+                            <div class="card">
+                                <h3>Informações rápidas</h3>
+                                <ul class="icon-list">
+                                    <li>
+                                        <span class="icon-circle"><i class="fa-solid fa-location-dot"></i></span>
+                                        <span><strong>Cidade:</strong> Lavras/MG</span>
+                                    </li>
+                                    <li>
+                                        <span class="icon-circle"><i class="fa-solid fa-language"></i></span>
+                                        <span><strong>Idiomas:</strong> Português, Inglês (intermediário)</span>
+                                    </li>
+                                    <li>
+                                        <span class="icon-circle"><i class="fa-solid fa-laptop-code"></i></span>
+                                        <span><strong>Área:</strong> Tecnologia, Dados, Desenvolvimento Web e QA</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Habilidades -->
+            <section id="habilidades" class="w3-container section">
+                <div class="w3-content">
+                    <h2 class="section-title">Habilidades</h2>
+                    <p class="section-sub">Tecnologias e competências.</p>
+
+                    <div class="w3-row-padding">
+                        <div class="w3-col l12 m12 s12 card-col">
+                            <div class="card">
+                                <h3>Tecnologias</h3>
+                                <p class="tag-list">
+                                    <span class="chip chip-solid">HTML</span>
+                                    <span class="chip chip-solid">CSS</span>
+                                    <span class="chip chip-solid">JavaScript</span>
+                                    <span class="chip">W3.CSS</span>
+                                    <span class="chip">Git/GitHub</span>
+                                    <span class="chip">Python</span>
+                                    <span class="chip">Django</span>
+                                </p>
+
+                                <h3 class="mt">Competências</h3>
+                                <ul class="dot-list">
+                                    <li>Construção de páginas responsivas</li>
+                                    <li>Manipulação do DOM e eventos</li>
+                                    <li>Organização de projetos e versionamento</li>
+                                    <li>Boas práticas de legibilidade de código</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Projetos -->
+            <section id="projetos" class="w3-container section">
+                <div class="w3-content">
+                    <h2 class="section-title">Projetos</h2>
+                    <p class="section-sub">Alguns trabalhos já desenvolvidos.</p>
+
+                    <div class="w3-row-padding">
+                        <div class="w3-col l4 m6 s12 card-col">
+                            <div class="card card-project">
+                                <h3>Snake Game</h3>
+                                <p class="tag-list">
+                                    <span class="chip">HTML</span>
+                                    <span class="chip">CSS</span>
+                                    <span class="chip">JavaScript</span>
+                                </p>
+                                <p class="muted">Implementação do jogo com verificação de vitória e reinício.</p>
+                                <ul class="dot-list small">
+                                    <li>Matriz</li>
+                                    <li>Animação de personagens</li>
+                                </ul>
+                                <div class="btn-group card-actions">
+                                    <a class="btn btn-outline btn-sm" href="#" target="_blank" rel="noreferrer">
+                                        <i class="fa-brands fa-github"></i> Repositório
+                                    </a>
+                                    <a class="btn btn-solid btn-sm" href="#" target="_blank" rel="noreferrer">
+                                        <i class="fa-solid fa-arrow-up-right-from-square"></i> Demo
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="w3-col l4 m6 s12 card-col">
+                            <div class="card card-project">
+                                <h3>Página Pessoal</h3>
+                                <p class="tag-list">
+                                    <span class="chip">HTML</span>
+                                    <span class="chip">W3.CSS</span>
+                                    <span class="chip">FontAwesome</span>
+                                </p>
+                                <p class="muted">Implementação de página pessoal com seções e navegação.</p>
+                                <ul class="dot-list small">
+                                    <li>Classes do W3.CSS</li>
+                                    <li>Grid responsivo</li>
+                                    <li>Componentes (cards, barra de navegação)</li>
+                                </ul>
+                                <div class="btn-group card-actions">
+                                    <a class="btn btn-outline btn-sm" href="#" target="_blank" rel="noreferrer">
+                                        <i class="fa-brands fa-github"></i> Repositório
+                                    </a>
+                                    <a class="btn btn-solid btn-sm" href="#" target="_blank" rel="noreferrer">
+                                        <i class="fa-solid fa-arrow-up-right-from-square"></i> Demo
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="w3-col l4 m6 s12 card-col">
+                            <div class="card card-project">
+                                <h3>Sistema de Gerenciamento de Banco de Dados</h3>
+                                <p class="tag-list">
+                                    <span class="chip">Backend</span>
+                                </p>
+                                <p class="muted">Sistema de gerenciamento de banco de dados com funcionalidades básicas.</p>
+                                <ul class="dot-list small">
+                                    <li>HTML + CSS</li>
+                                    <li>Linguagem SQL</li>
+                                </ul>
+                                <div class="btn-group card-actions">
+                                    <a class="btn btn-outline btn-sm" href="#" target="_blank" rel="noreferrer">
+                                        <i class="fa-brands fa-github"></i> Repositório
+                                    </a>
+                                    <a class="btn btn-solid btn-sm" href="#" target="_blank" rel="noreferrer">
+                                        <i class="fa-solid fa-arrow-up-right-from-square"></i> Demo
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Interesses -->
+            <section id="interesses" class="w3-container section">
+                <div class="w3-content">
+                    <h2 class="section-title">Interesses</h2>
+                    <p class="section-sub">Áreas que eu gosto de estudar e pesquisar.</p>
+
+                    <div class="w3-row-padding">
+                        <div class="w3-col l6 m12 s12 card-col">
+                            <div class="card">
+                                <ul class="dot-list">
+                                    <li>Desenvolvimento Web (frontend e backend)</li>
+                                    <li>Banco de Dados e modelagem</li>
+                                    <li>Engenharia de Software</li>
+                                    <li>Dados e visualização</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="w3-col l6 m12 s12 card-col">
+                            <div class="card">
+                                <h3>Atividades</h3>
+                                <ul class="dot-list">
+                                    <li>Coordenadora de eventos e consultora de projetos na Ufla Jr Consultoria Administrativa.</li>
+                                    <li>Participação no projeto "Práticas com smartphones para a terceira idade", em Lavras/MG.</li>
+                                </ul>
+                                <p class="tag-list">
+                                    <span class="chip"><i class="fa-solid fa-book"></i> Estudos</span>
+                                    <span class="chip"><i class="fa-solid fa-people-group"></i> Trabalho em equipe</span>
+                                    <span class="chip"><i class="fa-solid fa-terminal"></i> Projetos práticos</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contato -->
+            <section id="contato" class="w3-container section">
+                <div class="w3-content">
+                    <h2 class="section-title">Contato</h2>
+                    <p class="section-sub">Como falar comigo.</p>
+
+                    <div class="w3-row-padding">
+                        <div class="w3-col l6 m12 s12 card-col">
+                            <div class="card">
+                                <ul class="icon-list">
+                                    <li>
+                                        <span class="icon-circle"><i class="fa-solid fa-envelope"></i></span>
+                                        <span>carolinaude@gmail.com</span>
+                                    </li>
+                                    <li>
+                                        <span class="icon-circle"><i class="fa-brands fa-github"></i></span>
+                                        <a href="https://github.com/carolinaude" target="_blank" rel="noreferrer">github.com/carolinaude</a>
+                                    </li>
+                                    <li>
+                                        <span class="icon-circle"><i class="fa-brands fa-linkedin"></i></span>
+                                        <a href="https://www.linkedin.com/in/carolinacostaude/" target="_blank" rel="noreferrer">linkedin.com/carolinaude</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="w3-col l6 m12 s12 card-col">
+                            <div class="card">
+                                <ul class="icon-list">
+                                    <li>
+                                        <span class="icon-circle"><i class="fa-brands fa-instagram"></i></span>
+                                        <a href="https://www.instagram.com/carolinaudee/" target="_blank" rel="noreferrer">instagram.com/carolinaudee</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Rodapé -->
+        <footer class="w3-container footer">
+            <div class="w3-content footer-content">
+                <small>© <span id="year"></span> Carolina Costa Ude</small>
+                <small>Feito com HTML + W3.CSS + um pouco de CSS/JS</small>
+            </div>
+        </footer>
+
+        <!-- JS do projeto -->
+        <script src="assets/js/script.js"></script>
+    </body>
+</html>
+</html>
