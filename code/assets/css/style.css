@@ -1,0 +1,12 @@
+/* Ajusta tamanho da imagem de perfil */
+.profile-img {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    object-position: center top;
+    border-radius: 50%;
+}
+/* Melhorar espaçamento do âncora/título (por causa da navbar fixa) */
+section {
+    scroll-margin-top: 90px;
+}
